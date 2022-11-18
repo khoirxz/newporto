@@ -1,0 +1,13 @@
+.bgMesh {
+  background-image: radial-gradient(
+      at 5% 5%,
+      hsla(37, 81%, 64%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 95% 61%, hsla(165, 87%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 63% 3%, hsla(303, 74%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 69% 81%, hsla(38, 74%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 44% 84%, hsla(155, 81%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 45% 38%, hsla(189, 69%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 74% 58%, hsla(328, 87%, 63%, 1) 0px, transparent 50%);
+}
