@@ -19,7 +19,7 @@ const Card = ({ title, thumbnail, description, slug }) => {
             </div>
 
             <div className="flex-col">
-              <h3 className="mt-4 text-xl font-bold">{title}</h3>
+              <h2 className="mt-4 text-xl font-bold">{title}</h2>
               <p className="mt-3 text-gray-600 dark:text-gray-400 text-sm tracking-wide">
                 {description}
               </p>

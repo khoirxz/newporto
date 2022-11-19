@@ -5,28 +5,35 @@
 @font-face {
   font-family: "Jakarta-Extralight";
   src: url("../assets/fonts/PlusJakartaSans-ExtraLight.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Jakarta-light";
   src: url("../assets/fonts/PlusJakartaSans-Light.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Jakarta-regular";
   src: url("../assets/fonts/PlusJakartaSans-Regular.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Jakarta-medium";
   src: url("../assets/fonts/PlusJakartaSans-Medium.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Jakarta-semiBold";
   src: url("../assets/fonts/PlusJakartaSans-SemiBold.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Jakarta-bold";
   src: url("../assets/fonts/PlusJakartaSans-Bold.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Jakarta-extraBold";
   src: url("../assets/fonts/PlusJakartaSans-ExtraBold.woff") format("woff");
+  font-display: swap;
 }

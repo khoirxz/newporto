@@ -39,6 +39,9 @@ const Navbar = () => {
 
         <div className="flex justify-between items-center">
           <button
+            role="button"
+            id="buttonToggle"
+            aria-label="Button Toggle Dark Mode"
             onClick={handleTheme}
             className="cursor-pointer w-14 h-14 rounded-full hover:bg-black/10 hover:dark:bg-white/10 hover:backdrop-blur-md transition-all flex flex-row justify-center items-center"
           >
