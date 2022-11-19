@@ -9,7 +9,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBgNavbar = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 20) {
       setNavbar(true);
     } else {
       setNavbar(false);

@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 
 import { Navbar, Footer } from "../components/Atom";
-import { Hero, Social } from "../components/Molecules";
+import { Hero } from "../components/Molecules";
 
 import styles from "../styles/Landing.module.css";
 
@@ -19,11 +19,7 @@ const Layout = ({ children }) => {
       </Head>
       <header className="flex flex-col justify-between relative z-30">
         <Navbar />
-        {route.route !== "/" ? null : (
-          <Hero>
-            <Social />
-          </Hero>
-        )}
+        {route.route !== "/" ? null : <Hero />}
       </header>
       <main className="relative z-20 transition-all">{children}</main>
       <Footer />

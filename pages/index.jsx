@@ -23,22 +23,6 @@ const Home = ({ posts }) => {
           ))}
         </div>
       </div>
-
-      <div className="mt-56">
-        <h1 className="font-semibold text-2xl my-10">Contact</h1>
-        <p className="font-normal text-lg text-gray-600 dark:text-gray-400">
-          Want to collaborate? or just say Hi 👋
-        </p>
-        <h2 className="text-xl lg:text-3xl my-4 font-bold text-blue-600">
-          <Link href="mailto:khoirrurrohman@gmail.com">
-            khoirrurrohman@gmail.com
-          </Link>
-        </h2>
-        <p className="font-normal text-lg text-gray-600 dark:text-gray-400">
-          more
-        </p>
-        <Social />
-      </div>
     </Section>
   );
 };

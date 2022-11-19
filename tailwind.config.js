@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         thin: "Jakarta-Extralight",
-        light: "Jakarta-Jakarta-light",
+        light: "Jakarta-light",
         body: "Jakarta-regular",
         medium: "Jakarta-medium",
         semibold: "Jakarta-semiBold",
