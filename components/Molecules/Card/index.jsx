@@ -11,10 +11,10 @@ const Card = ({ title, thumbnail, description, slug }) => {
               <Image
                 src={"https:" + thumbnail.fields.file.url}
                 fill
-                sizes="100vw"
-                priority
+                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
                 className="rounded-md lg:object-left-top object-cover"
                 alt={thumbnail?.fields?.title}
+                loading="lazy"
               />
             </div>
 
