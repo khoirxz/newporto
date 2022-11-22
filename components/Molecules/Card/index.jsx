@@ -11,7 +11,7 @@ const Card = ({ title, thumbnail, description, slug }) => {
               <Image
                 src={"https:" + thumbnail.fields.file.url}
                 fill
-                sizes="100vh"
+                sizes="100vw"
                 priority
                 className="rounded-md lg:object-left-top object-cover"
                 alt={thumbnail?.fields?.title}
@@ -19,8 +19,8 @@ const Card = ({ title, thumbnail, description, slug }) => {
             </div>
 
             <div className="flex-col">
-              <h2 className="mt-4 text-xl font-bold">{title}</h2>
-              <p className="mt-3 text-gray-600 dark:text-gray-400 text-sm tracking-wide">
+              <h2 className="my-3 text-xl font-bold">{title}</h2>
+              <p className="my-2 text-gray-600 dark:text-gray-400 text-sm tracking-wide">
                 {description}
               </p>
             </div>
