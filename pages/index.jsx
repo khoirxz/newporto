@@ -1,8 +1,6 @@
-import Link from "next/link";
-
 import { Section } from "../components/Atom";
 import { createClient } from "contentful";
-import { Card, Social } from "../components/Molecules";
+import { Card } from "../components/Molecules";
 
 const Home = ({ posts }) => {
   // console.log(posts);

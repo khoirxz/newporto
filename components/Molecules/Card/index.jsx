@@ -7,7 +7,7 @@ const Card = ({ title, thumbnail, description, slug }) => {
       <a>
         <div className="bg-white/10 p-5 rounded-lg backdrop-blur-md">
           <div className="relative flex flex-row lg:flex-col gap-5 items-center">
-            <div className="relative w-[100px] h-[80px] lg:w-full lg:h-[200px]">
+            <div className="relative min-w-[80px] h-[80px] lg:w-full lg:h-[200px]">
               <Image
                 src={"https:" + thumbnail.fields.file.url}
                 fill
@@ -19,8 +19,8 @@ const Card = ({ title, thumbnail, description, slug }) => {
             </div>
 
             <div className="flex-col">
-              <h2 className="my-3 text-xl font-bold">{title}</h2>
-              <p className="my-2 text-gray-600 dark:text-gray-400 text-sm tracking-wide">
+              <h2 className="text-xl font-bold">{title}</h2>
+              <p className="my-1 font-body text-gray-600 dark:text-gray-400">
                 {description}
               </p>
             </div>

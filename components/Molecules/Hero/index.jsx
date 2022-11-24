@@ -23,11 +23,11 @@ const Hero = () => {
     <div className="w-full">
       <div className="max-w-[800px] h-[30rem] w-full mx-auto px-6 lg:px-0 flex flex-row items-center">
         <div>
-          <h1 className="font-semibold text-xl my-2">Rizqi Khoirurrohman</h1>
-          <p className="font-medium text-lg text-gray-600 dark:text-gray-400 my-2">
+          <h1 className="font-semibold text-2xl my-2">Rizqi Khoirurrohman</h1>
+          <p className="font-body text-xl text-gray-600 dark:text-gray-400 my-2">
             I&apos;m a full stack engineer with strong experience.
           </p>
-          <p className="font-medium text-lg text-gray-600 dark:text-gray-400 my-2">
+          <p className="font-body text-xl text-gray-600 dark:text-gray-400 my-2">
             make something by combining creativity and technology to create
             something unique and can be enjoyed by everyone.
           </p>

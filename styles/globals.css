@@ -3,37 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Jakarta-Extralight";
-  src: url("../assets/fonts/PlusJakartaSans-ExtraLight.woff") format("woff");
+  font-family: "TT-Commons-Extralight";
+  src: url("../assets/fonts/TT-Commons-ExtraLight.otf") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Jakarta-light";
-  src: url("../assets/fonts/PlusJakartaSans-Light.woff") format("woff");
+  font-family: "TT-Commons-light";
+  src: url("../assets/fonts/TT-Commons-Light.otf") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Jakarta-regular";
-  src: url("../assets/fonts/PlusJakartaSans-Regular.woff") format("woff");
+  font-family: "TT-Commons-regular";
+  src: url("../assets/fonts/TT-Commons-Regular.otf") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Jakarta-medium";
-  src: url("../assets/fonts/PlusJakartaSans-Medium.woff") format("woff");
+  font-family: "TT-Commons-medium";
+  src: url("../assets/fonts/TT-Commons-Medium.otf") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Jakarta-semiBold";
-  src: url("../assets/fonts/PlusJakartaSans-SemiBold.woff") format("woff");
+  font-family: "TT-Commons-semiBold";
+  src: url("../assets/fonts/TT-Commons-DemiBold.otf") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Jakarta-bold";
-  src: url("../assets/fonts/PlusJakartaSans-Bold.woff") format("woff");
+  font-family: "TT-Commons-bold";
+  src: url("../assets/fonts/TT-Commons-Bold.otf") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Jakarta-extraBold";
-  src: url("../assets/fonts/PlusJakartaSans-ExtraBold.woff") format("woff");
+  font-family: "TT-Commons-extraBold";
+  src: url("../assets/fonts/TT-Commons-ExtraBold.otf") format("opentype");
   font-display: swap;
 }

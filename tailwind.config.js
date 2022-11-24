@@ -9,13 +9,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        thin: "Jakarta-Extralight",
-        light: "Jakarta-light",
-        body: "Jakarta-regular",
-        medium: "Jakarta-medium",
-        semibold: "Jakarta-semiBold",
-        bold: "Jakarta-bold",
-        extrabold: "Jakarta-extraBold",
+        thin: "TT-Commons-Extralight",
+        light: "TT-Commons-light",
+        body: "TT-Commons-regular",
+        medium: "TT-Commons-medium",
+        semibold: "TT-Commons-semiBold",
+        bold: "TT-Commons-bold",
+        extrabold: "TT-Commons-extraBold",
       },
     },
   },
