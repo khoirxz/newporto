@@ -9,7 +9,7 @@ const Home = ({ posts }) => {
       <div>
         <h1 className="font-semibold text-2xl my-10">Work</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10">
           {posts.map((item) => (
             <Card
               key={item.sys.id}
