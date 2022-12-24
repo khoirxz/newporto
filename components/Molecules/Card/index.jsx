@@ -18,7 +18,7 @@ const Card = ({ title, thumbnail, description, slug }) => {
               />
             </div>
 
-            <div className="flex-col">
+            <div className="flex-col w-full">
               <h2 className="text-xl font-bold">{title}</h2>
               <p className="my-1 font-body text-gray-600 dark:text-gray-400">
                 {description}

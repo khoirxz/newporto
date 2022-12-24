@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.16.2",
     "contentful": "^9.2.11",
     "framer-motion": "^7.6.6",
     "next": "13.0.3",

@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         {route.route !== "/" ? null : <Hero />}
       </header>
       <main className="relative z-20 transition-all">{children}</main>
-      <Footer />
+      {route.route !== "/" ? null : <Footer />}
     </div>
   );
 };
