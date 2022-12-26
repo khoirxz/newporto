@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Router from "next/router";
 
 const data = [
   {
@@ -49,7 +50,10 @@ const Hero = () => {
             >
               Khoirrurrohman@gmail.com
             </Link>
-            <p className="cursor-pointer transition-all rounded-lg font-medium bg-black/20 dark:bg-white/20 hover:bg-black/10 hover:dark:bg-white/10 px-3 py-2">
+            <p
+              onClick={() => Router.push("/resume.pdf")}
+              className="cursor-pointer transition-all rounded-lg font-medium bg-black/20 dark:bg-white/20 hover:bg-black/10 hover:dark:bg-white/10 px-3 py-2"
+            >
               CV
             </p>
           </div>

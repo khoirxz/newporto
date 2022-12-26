@@ -29,7 +29,7 @@ const Navbar = () => {
       <div
         className={`${
           navbar ? "py-1" : "py-5"
-        } transition-all max-w-screen-xl w-full px-5 xl:px-0 m-auto flex justify-between items-center`}
+        } transition-all max-w-[800px] w-full px-5 xl:px-0 m-auto flex justify-between items-center`}
       >
         <div>
           <h1 className="text-xl font-bold cursor-pointer">
