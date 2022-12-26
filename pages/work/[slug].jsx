@@ -50,7 +50,7 @@ const Slug = ({ recipe }) => {
               <Image
                 alt={thumbnail.fields.title}
                 src={`https:${thumbnail.fields.file.url}`}
-                sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
+                sizes="(min-width: 400px) 400px, 100vw"
                 fill
                 className="rounded-md object-left-top object-cover"
                 priority
