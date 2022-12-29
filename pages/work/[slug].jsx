@@ -1,5 +1,6 @@
 import { Section } from "../../components/Atom";
 import { createClient } from "contentful";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
@@ -43,7 +44,21 @@ const Slug = ({ recipe }) => {
 
   return (
     <Section>
-      <div className="mt-28">
+      <motion.div
+        className="mt-28"
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: 50,
+          },
+          visible: {
+            opacity: 1,
+            y: 0,
+          },
+        }}
+        initial="hidden"
+        animate="visible"
+      >
         <div className="min-h-[90vh] px-4 py-5 bg-white/5 backdrop-blur-sm rounded-t-md relative">
           <div>
             <div className="relative w-full h-80">
@@ -78,7 +93,7 @@ const Slug = ({ recipe }) => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </Section>
   );
 };

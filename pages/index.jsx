@@ -1,13 +1,33 @@
 import { Section } from "../components/Atom";
 import { createClient } from "contentful";
 import { Card } from "../components/Molecules";
+import { motion } from "framer-motion";
+
+const letter = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+};
+
+const title = "Work";
 
 const Home = ({ posts }) => {
   // console.log(posts);
   return (
     <Section>
       <div>
-        <h1 className="font-semibold text-2xl my-10">Work</h1>
+        <motion.h1 className="font-semibold text-2xl my-10">
+          {title.split("").map((char, i) => (
+            <motion.span key={char + "_" + i} variants={letter}>
+              {char}
+            </motion.span>
+          ))}
+        </motion.h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10">
           {posts.map((item) => (
