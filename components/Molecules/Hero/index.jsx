@@ -82,7 +82,7 @@ const Hero = () => {
             ))}
           </p>
 
-          <div className="flex gap-2 items-center mt-5 flex-wrap">
+          <div className="flex gap-2 gap-y-5 items-center mt-5 flex-wrap">
             {data.map((item) => (
               <motion.span variants={letter} key={item.id}>
                 <Link

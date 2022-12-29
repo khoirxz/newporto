@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   const { theme } = useContext(AppContext);
   return (
     <div
-      className={`text-[#2e3033] dark:text-[#ffffff] min-h-screen before:dark:bg-black/80 ${styles.bgMesh} relative z-10 before:content-[""] before:-z-20 before:absolute before:w-full before:h-full before:bg-[#ffffff86] before:backdrop-blur-md`}
+      className={`text-[#2e3033] dark:text-[#ffffff] min-h-screen before:dark:bg-black/80 ${styles.bgMesh} relative before:content-[""] before:-z-999 before:absolute before:w-full before:h-full before:bg-[#ffffff86] before:backdrop-blur-md`}
     >
       <Head>
         <title>R KHOIR</title>
@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
         initial="hidden"
         animate="visible"
       >
-        <header className="flex flex-col justify-between relative z-30">
+        <header className="flex flex-col justify-between relative ">
           <Navbar />
           {route.route !== "/" ? null : <Hero />}
         </header>

@@ -22,8 +22,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full fixed z-90 top-0 left-1/2 -translate-x-1/2 ${
-        navbar ? "backdrop-blur-sm" : "backdrop-blur-none"
+      className={`w-full fixed z-[90] top-0 left-1/2 -translate-x-1/2 ${
+        navbar ? "backdrop-blur-xl" : "backdrop-blur-none"
       }`}
     >
       <div
