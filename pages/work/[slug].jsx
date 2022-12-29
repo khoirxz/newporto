@@ -49,7 +49,7 @@ const Slug = ({ recipe }) => {
         variants={{
           hidden: {
             opacity: 0,
-            y: 50,
+            y: -50,
           },
           visible: {
             opacity: 1,
@@ -67,7 +67,7 @@ const Slug = ({ recipe }) => {
                 src={`https:${thumbnail.fields.file.url}`}
                 sizes="100vw"
                 fill
-                className="rounded-md object-left-top object-cover"
+                className="rounded-md object-center md:object-left-top object-cover"
                 priority
               />
             </div>
